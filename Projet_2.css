@@ -1,0 +1,264 @@
+#bloc_page
+{
+	width: 100%;
+	margin: auto;
+}	      
+	      /*Les hébergements seuls*/
+	.Aubergela
+	{
+		background-image: url("images/Hébergements/Auberge la Cannebière M.jpg");
+			
+	}
+	.Hôtelde
+	{
+		background-image: url("images/Hébergements/Hôtel de la mer M.jpg");
+		
+	}
+	.Hôteldu
+	{
+		background-image: url("images/Hébergements/Hôtel du port M.jpg");
+		
+	}
+	.Aubergele
+	{
+		background-image: url("images/Hébergements/Auberge Le Panier M.jpg");
+		
+	}
+	.Hôtelles
+	{
+		background-image: url("images/Hébergements/Hôtel Les mouettes M.jpg");
+		
+	}
+	.Hôtelchez
+	{
+		background-image: url("images/Hébergements/Hôtel chez Amina M.jpg");
+		
+	}
+	.Hôtellesol
+	{
+		background-image: url("images/Hébergements/Hôtel Le soleil du matin M.jpg");
+	}
+	.Aucoeur
+	{
+		background-image: url("images/Hébergements/Au coeur de l'eau Chambres d'hôtes M.jpg");
+	}
+	.Hôteltout
+	{
+		background-image: url("images/Hébergements/Hôtel Tout bleu et Blanc M.jpg");
+	}
+
+#bloc_sec1
+{
+	display: flex;
+	justify-content: space-around;
+}
+#bloc_lesplus, #bloc_héberg
+{
+	background-color: #F2F2F2;
+	border: 5px #F2F2F2 solid;
+	border-radius: 20px;
+	
+}
+#bloc_héberg
+{
+	width: 63%;
+	height: 600px;
+}
+.textheb
+{
+	border: 1px black solid;
+	width: 91.3%;
+	text-align: left;
+	font-family: Raleway;	
+}
+.textheb1
+{
+	margin-top: 35px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.textheb2
+{
+	margin-top: 18px;
+	font-size: 1.25em;
+}
+#bloc_images1, #bloc_images2
+{
+	display:flex;
+	justify-content: space-between;
+	border: 1px black solid;
+	margin: auto;
+	width: 92%;
+}
+#bloc_images1
+{
+	margin-top: 7px;
+	margin-bottom: 8px;
+}
+#bloc_images2
+{
+
+}
+.Aubergelas, .Hôteldus, .Hôtelless
+{
+	background-color: white;
+	border: 3px white solid;
+	border-radius: 20px;
+	width: 235px;
+	height:	190px;
+	box-shadow: 1px 1px 20px silver;
+	border: 1px black solid;
+}
+.Hôteldes, .Aubergeles, .Hôtelchezs
+{
+	background-color: white;
+	border: 3px white solid;
+	border-radius: 20px;
+	width: 235px;
+	height:	190px;
+	box-shadow: 1px 1px 20px silver;
+	border: 1px black solid;
+}
+.Aubergela, .Hôtelde, .Hôteldu, .Aubergele, .Hôtelles, .Hôtelchez
+{
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px; 
+	width: 97%;
+	height: 110px;
+	margin-top: 3px;
+
+}
+.Hôtellesol, .Aucoeur, .Hôteltout
+{
+	border: 2px white solid;
+	border-radius: 20px;
+	background-color: white;
+	
+}
+.desc1
+{
+	border: 1px black solid;
+	height: 68px;
+	width: 87%;
+	text-align: left;
+	color: black;
+	font-family: Raleway;
+	justify-content: center;
+	margin-top: 7px;
+
+	
+}
+.titledesc
+{
+	border: 1px black solid;
+	margin-bottom: 3px;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+.desc
+{
+	font-size: 0.8em;
+	border: 1px black solid;
+	margin-bottom: 5px;
+}
+.note
+{
+	display: flex;
+	font-size: 0.9em;
+}
+.starfull
+{
+	color: #0065FC;
+	font-size: 0.8em;
+	
+}
+.star
+{
+	color: #F2F2F2;
+	font-size: 0.8em;
+}
+#bloc_lesplus
+{
+	width: 30%;
+	height: 600px;
+}
+.textlog
+{
+	display: flex;
+	border: 1px black solid;
+	width: 85%;
+
+}
+.textles
+{
+	border: 1px black solid;
+	width: 70%;
+	text-align: left;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: Raleway;
+
+}
+.courbe
+{
+	border: 1px black solid;
+	font-size: 1.4em;
+	justify-content: flex-end;
+}
+
+#bloc_sec2-2
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#bloc_sec2-1
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+	#bloc_pied
+	{
+		background-color: #F2F2F2;
+		display: flex;
+		justify-content: center;
+	}
+	.propos, .Nos, .Assist
+	{
+		width: 45%;
+		text-align: center;
+	}
+p
+{
+	font-size: 0.9em;
+	font-family: Raleway;
+}
+h1
+{
+	font-size: 1.1em;
+}
+h2
+{
+	font-size: 0.8em;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+}
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+
+}
