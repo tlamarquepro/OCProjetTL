@@ -1,0 +1,1153 @@
+#bloc_page
+{
+	width: auto;
+	margin: auto;
+	max-width: 1600px;
+}
+.sec2_texte
+{
+	max-width: 1280px;
+}
+.bloc_sec2
+{
+	max-width: 1280px;
+}
+.conteneur_head
+{
+	margin: auto;
+}
+.bloc_logonav
+{
+	height: 100px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+.logo_logonav
+{
+	height: 80px;
+	margin-top: 10px;
+}
+.bloc_nav
+{
+	display: flex;
+	margin-left: auto;
+}
+.nav_heb
+{
+	height: 100px;
+	width: 135px;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 0.85em;
+	padding-top: 30px;
+}
+.nav_act
+{
+	height: 100px;
+	width: 135px;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 0.85em;
+	padding-top: 30px;
+}
+.nav_sins
+{
+	height: 100px;
+	width: 130px;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 0.85em;
+}
+.nav_heb:hover
+{
+	color: #0065FC;
+	border-top: 2px #0065FC solid;
+}
+.nav_act:hover
+{
+	color: #0065FC;
+	border-top: 2px #0065FC solid;
+}
+.nav_sins
+{
+	color: #0065FC;
+	font-weight: bold;
+}
+.nav_sins:hover
+{
+	border-top: 2px #0065FC solid;
+}
+.trouv
+{
+	font-family: Raleway;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+.en
+{
+	font-family: Raleway;
+	font-size: 0.9em;
+}
+.bloc_search
+{
+	border: 1px silver solid;
+	display: flex;
+	width: 370px;
+	height: 48px;
+	border-radius: 16px;
+}
+.logsearch
+{
+	width: 46px;
+	border-bottom-left-radius: 16px;
+	border-top-left-radius: 16px;
+	justify-content: center;
+	background-color: #F2F2F2;
+}
+.point
+{
+	margin: 15px 10px 10px 16px;
+	font-size: 0.9em;
+	background-color: #F2F2F2;
+}
+.search
+{
+	width: 206px;
+}
+.for
+{
+	width: 200px;
+}
+#recherches
+{
+	border: 1px white solid;
+	height: 44px;
+	font-family: Raleway;
+	font-size: 1em;
+	font-weight: bold;
+}
+.rechercher
+{
+	width: 118px;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	background-color: #0065FC;
+}
+.recherche
+{
+	margin-top: 14px;
+	margin-left: 10px;
+	width: 80%;
+	font-family: Raleway;
+	font-size: 1em;
+	font-weight: bold;
+}
+.mot
+{
+	color: white;
+}
+.bloc_filtres
+{
+	font-family: Raleway;
+	width: 834px;
+	height: 44px;
+	display: flex;
+	margin-top: 26px;
+}
+.fil
+{
+	margin-right: 24px;
+}
+.fils
+{
+	margin-top: 12px;
+}
+.billet, .enfant, .coeur, .chien
+{
+	margin: 12px 12px 12px 12px;
+	color: #0065FC;
+}
+.eco
+{
+	border: 2px silver solid;
+	width: 171px;
+	margin-right: 24px;
+	display: flex;
+	border-radius: 22px;
+	height: 40px;
+}
+.eco:hover, .fam:hover, .rom:hover, .ani:hover
+{
+	box-shadow: 3px 3px 24px silver;
+}
+.ronde
+{
+	width: 40px;
+	border-radius: 40px;
+	margin-right: 12px;
+	background-color: #DEEBFF;
+}
+.ecos
+{
+	width: 100px;
+	margin-top: 12px;
+}
+.fam
+{
+	border: 2px silver solid;
+	width: 132px;
+	margin-right: 24px;
+	display: flex;
+	border-radius: 22px;
+	height: 40px;
+}
+.rondf
+{
+	width: 40px;
+	border-radius: 40px;
+	margin-right: 12px;
+	background-color: #DEEBFF;
+}
+.fams
+{
+	width: 60px;
+	margin-top: 12px;
+}
+.rom
+{
+	border: 2px silver solid;
+	width: 162px;
+	margin-right: 24px;
+	display: flex;
+	border-radius: 22px;
+	height: 40px;
+}
+.rondr
+{
+	width: 40px;
+	border-radius: 40px;
+	margin-right: 12px;
+	background-color: #DEEBFF;
+}
+.roms
+{
+	width: 100px;
+	margin-top: 12px;
+}
+.ani
+{
+	border: 2px silver solid;
+	width: 213px;
+	display: flex;
+	border-radius: 22px;
+	height: 40px;
+}
+.ronda
+{
+	width: 40px;
+	border-radius: 40px;
+	margin-right: 12px;
+	background-color: #DEEBFF;
+}
+.anis
+{
+	width: 150px;
+	margin-top: 12px;
+}
+.bloc_info
+{
+	display: flex;
+}
+.case
+{
+	width: 24px;
+}
+.ii
+{
+	border: 1px silver solid;
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+.i
+{
+	width: 5px;
+	height: 13px;
+	color: #0065FC;
+	font-size: 0.6em;
+	margin: auto;
+	margin-top: 4px;
+}
+.phrase
+{
+	width: 700px;
+}
+#conteneur_sec1
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+	      /*Les hébergements_images de fonds*/
+	.Aubergela
+	{
+		background-image: url("images/Hébergements/Auberge la Cannebière M.jpg");
+	}
+	.Hôtelde
+	{
+		background-image: url("images/Hébergements/Hôtel de la mer M.jpg");
+	}
+	.Hôteldu
+	{
+		background-image: url("images/Hébergements/Hôtel du port M.jpg");
+	}
+	.Aubergele
+	{
+		background-image: url("images/Hébergements/Auberge Le Panier M.jpg");
+	}
+	.Hôtelles
+	{
+		background-image: url("images/Hébergements/Hôtel Les mouettes M.jpg");
+	}
+	.Hôtelchez
+	{
+		background-image: url("images/Hébergements/Hôtel chez Amina M.jpg");
+	}
+	.Hôtellesol
+	{
+		background-image: url("images/Hébergements/Hôtel Le soleil du matin M.jpg");
+	}
+	.Aucoeur
+	{
+		background-image: url("images/Hébergements/Au coeur de l'eau Chambres d'hôtes M.jpg");
+	}
+	.Hôteltout
+	{
+		background-image: url("images/Hébergements/Hôtel Tout bleu et Blanc M.jpg");
+	}
+
+#bloc_lesplus, #sec1_heberg
+{
+	background-color: #F2F2F2;
+	border: 5px #F2F2F2 solid;
+	border-radius: 20px;
+}
+
+			 /*Les hébergements*/
+	#sec1_heberg
+	{
+		width: 63%;
+		height: 600px;
+	}
+	.textheb
+	{
+		width: 92%;
+		text-align: left;
+		font-family: Raleway;
+		margin-left: 3%;	
+	}
+	.textheb1
+	{
+		margin-top: 35px;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+	.textheb2
+	{
+		margin-top: 18px;
+		font-size: 1.3em;
+	}
+	#bloc_images1, #bloc_images2
+	{
+		display:flex;
+		margin: auto;
+		width: 92%;
+	}
+	#bloc_images1
+	{
+		margin-top: 7px;
+		margin-bottom: 8px;
+	}
+	.Aubergelas, .Hôteldus, .Hôtelless
+	{
+		background-color: white;
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 236px;
+		height:	190px;
+		box-shadow: 1px 1px 12px silver;
+		margin-right: 20px;
+	}
+	.Hôteldes, .Aubergeles, .Hôtelchezs
+	{
+		background-color: white;
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 236px;
+		height:	190px;
+		box-shadow: 1px 1px 12px silver;
+		margin-right: 20px;
+	}
+	.Aubergela, .Hôtelde, .Hôteldu, .Aubergele, .Hôtelles, .Hôtelchez
+	{
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px; 
+		width: 232px;
+		height: 110px;
+		margin-top: 3px;
+		margin-left: 2px;
+	}
+	.desc1
+	{
+		height: 68px;
+		width: 87%;
+		text-align: left;
+		color: black;
+		font-family: Raleway;
+		justify-content: center;
+		margin-top: 7px;
+	}
+	.titledesc
+	{
+		margin-bottom: 3px;
+		font-size: 0.95em;
+		font-weight: bold;
+	}
+	.desc
+	{
+		font-size: 0.8em;
+		margin-bottom: 5px;
+	}
+	.note
+	{
+		display: flex;
+		font-size: 0.7em;
+	}
+	.starfull
+	{
+		color: #0065FC;
+	}
+	.star
+	{
+		color: #F2F2F2;
+	}
+
+			 /*Les plus populaires*/
+	#bloc_lesplus
+	{
+		width: 30%;
+		height: 600px;
+	}
+	.textlog
+	{
+		display: flex;
+		width: 85%;
+		height: 80px;
+		justify-content: flex-end;
+		justify-content: space-between;
+	}
+	.textles
+	{
+		width: 70%;
+		text-align: left;
+		margin-top: 20px;
+		font-weight: bold;
+		font-size: 1.2em;
+		font-family: Raleway;
+	}
+	.courbe
+	{
+		font-size: 1.4em;
+		margin: 32px 2px;
+	}
+	.bloc_images3
+	{
+		width: 85%;
+		margin: auto;
+	}
+	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	{
+		background-color: white;
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 100%;
+		height:	137px;
+		box-shadow: 1px 1px 20px silver;
+		display: flex;
+		justify-content: space-between;
+	}
+	.Hôtellesol, .Aucoeur, .Hôteltout
+	{
+		border-top-left-radius: 18px;
+		border-bottom-left-radius: 18px; 
+		width: 124px;
+		height: 128px;
+		margin-top: 3px;
+		margin-left: 3px;
+	}
+	.Hôtellesols
+	{
+		margin-top: 5px;
+	} 
+	.Aucoeurs
+	{
+		margin-top: 32px;
+	}
+	.Hôteltouts
+	{
+		margin-top: 32px;
+	}
+	.desc1l
+	{
+		width: 188px;
+		height: 125px;
+		text-align: left;
+		color: black;
+		font-family: Raleway;
+		justify-content: center;
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+	.titledesc1
+	{
+		margin-bottom: 6px;
+		font-size: 0.95em;
+		font-weight: bold;
+		width: 75%;
+	}
+	.desc2
+	{
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		width: 75%;
+		height: 48px;
+	}
+	.note1
+	{
+		display: flex;
+		font-size: 0.7em;
+	}
+
+	 		 /*Section 2*/
+
+	.sec2_texte
+	{
+		width: 90%;
+		height: 70px;
+		text-align: left;
+		font-family: Raleway;
+		font-weight: bold;
+		font-size: 1.1em;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.bloc_sec2
+	{
+		width: 90%;
+		height: 464px;
+		display: flex;
+		margin: auto;
+	}
+	.bloc_img31
+	{
+		width: 50%;
+		height: 406px;
+	}
+	.bloc_sec2-1
+	{
+		width: 97%;
+		height: 406px;
+		margin-right: 5%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.vieux
+	{
+		background-color: white;
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height:	404px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.vieuxs
+	{
+		background-image: url("images/Activités/Vieux Port.jpg");
+	}
+	.fort
+	{
+		width: 46%;
+		height: 406px;
+	}
+	.fort1
+	{
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height: 212px;
+		margin-bottom: 40px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.fort1s
+	{
+		background-image: url("images/Activités/Fort de Pomègues.jpg");
+		height: 162px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px; 
+	}
+	.ile
+	{
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height: 150px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.iles
+	{
+		background-image: url("images/Activités/Îles du Frioul.jpg");
+		height: 98px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px; 
+	}
+	.bloc_img32
+	{
+		width: 50%;
+		height: 406px;
+	}
+	.bloc_sec2-2
+	{
+		width: 97%;
+		height: 406px;
+		margin-left: 3%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.parc
+	{
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height: 404px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.parcs
+	{
+		background-image: url("images/activités/Parc National des Calanques.jpg");
+	}
+	.notre
+	{
+		width: 46%;
+		height: 406px;
+	}
+	.notre1
+	{
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height: 174px;
+		margin-bottom: 36px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.notre1s
+	{
+		background-image: url("images/Activités/Notre-Dame-de-la-Garde.jpg");
+		height: 125px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px; 
+	}
+	.parcl
+	{
+		border: 3px white solid;
+		border-radius: 20px;
+		width: 266px;
+		height: 190px;
+		box-shadow: 2px 2px 16px silver;
+	}
+	.parcls
+	{
+		background-image: url("images/Activités/Parc Longchamp.jpg");
+		height: 138px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px; 
+	}
+	.vieuxs, .parcs 
+	{
+		width: 100%;
+		height: 352px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px;
+	}
+	.descfin
+	{
+		font-family: Raleway;
+		font-weight: bold;
+		margin-left: 6%;
+		margin-top: 18px;
+		font-size: 0.88em;
+	}
+
+			 /*Footer*/
+
+	.footer
+	{
+		background-color: #F2F2F2;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 192px;
+		max-width: 1400px;
+		margin: auto;
+	}
+	.propos, .Nos, .Assist
+	{
+		width: 30%;
+		text-align: left;
+		font-family: Raleway;
+		font-size: 1.2em;
+	}
+	.prop, .no, .assi
+	{
+		width: 100%;
+		text-align: left;
+		font-size: 0.79em;
+	}
+
+p
+{
+	font-size: 0.9em;
+	font-family: Raleway;
+}
+h1
+{
+	font-size: 1.1em;
+}
+h2
+{
+	font-size: 0.8em;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+@media all and (max-width: 1352px)
+{
+	.nav1
+	{
+		margin-left: auto;
+	}
+}
+@media all and (max-width: 1300px)
+{
+	#bloc_images1, #bloc_images2
+	{
+		flex-wrap: wrap;
+	}
+	#sec1_heberg
+	{
+		height: 1000px;
+		width: 570px;
+	}
+	.Aubergelas, .Hôteldes
+	{
+		margin-bottom: 20px;
+	}
+	.bloc_sec2
+	{
+		flex-wrap: wrap;
+		height: 870px;
+	}
+	.bloc_img31
+	{
+		margin-bottom: 20px;
+		margin-left: 16px;
+	}
+}
+@media all and (max-width: 1195px)
+{
+	#bloc_lesplus
+	{
+		width: 400px;
+		margin-left: 30px;
+	}
+	.bloc_sec2
+	{
+		height: 1300px;
+	}
+	.bloc_img32
+	{
+		margin-left: 8px;
+	}
+	.bloc_sec2-1
+	{
+		flex-direction: column;
+	}
+	.bloc_sec2-2
+	{
+		flex-direction: column;
+		margin-left: 8px;
+	}
+	.vieuxs, .parcs, .fort1s, .iles, .notre1s, .parcls
+	{
+		height: 135px;
+		width: 320px;
+	}
+	.vieuxs
+	{
+		background-image: url("images/Activités/Vieux Port M.jpg");
+	}
+	.fort1s
+	{
+		background-image: url("images/Activités/Fort de Pomègues M.jpg");
+	}
+	.iles
+	{
+		background-image: url("images/Activités/Îles du Frioul M.jpg");
+	}
+	.parcs
+	{
+		background-image: url("images/Activités/Parc National des Calanques M.jpg");
+	}
+	.notre1s
+	{
+		background-image: url("images/Activités/Notre-Dame-de-la-Garde M.jpg");
+	}
+	.parcls
+	{
+		background-image: url("images/Activités/Parc Longchamp M.jpg");
+	}
+	.vieux
+	{
+		margin-bottom: 40px;
+		width: 320px;
+		height: 180px;
+	}
+	.fort1
+	{
+		width: 320px;
+		height: 170px;
+	}
+	.ile
+	{
+		width: 320px;
+		height: 170px;
+	}
+	.parc
+	{
+		margin-bottom: 40px;
+		width: 320px;
+		height: 170px;
+	}
+	.notre1
+	{
+		width: 320px;
+		height: 170px;
+	}
+	.parcl
+	{
+		width: 320px;
+		height: 170px;
+	}
+}
+@media all and (max-width: 1087px)
+{
+	#sec1_heberg
+	{
+		width: 320px;
+		height: 1420px;
+	}
+	.Hôteldus, .Aubergeles
+	{
+		margin-bottom: 20px;
+	}
+	#conteneur_sec1
+	{
+		justify-content: center;
+	}	      
+}
+@media all and (max-width: 980px)
+{
+	#sec1_heberg
+	{
+		width: 350px;
+	}
+}
+@media all and (max-width: 843px)
+{
+	.bloc_filtres
+	{
+		flex-wrap: wrap;
+		width: auto;
+		height: 100px;
+	}
+}
+@media all and (max-width: 730px)
+{
+	.titledesc1
+	{
+		width:85%;
+	}
+}
+@media all and (max-width: 700px)
+{
+	#conteneur_sec1
+	{
+		flex-wrap: wrap;
+	}
+	.footer
+	{
+		flex-direction: column;
+		height:450px;
+	}
+	.propos, .Nos, .Assist
+	{
+		width: auto;
+	}
+	#sec1_heberg
+	{
+		width: auto;
+		height: 1000px;
+		order: 2;
+		background-color: white;
+		border: 5px white solid;
+	}
+	#bloc_lesplus
+	{
+		width: 750px;
+		order: 1;
+		margin: auto;
+	}
+	.bloc_images3
+	{
+		margin: auto;
+		justify-content: center;
+	}
+	.textlog
+	{
+		margin: auto;
+	}
+	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	{
+		width: 310px;
+		margin: auto;
+	}
+	.Hôtellesols, .Aucoeurs
+	{
+		margin-bottom: 30px;
+	}
+	.Aubergelas, .Hôteldus, .Hôteldes, .Aubergeles
+	{
+		margin-bottom: 20px;
+	}
+	#bloc_images1, #bloc_images2
+	{
+		justify-content: center;
+	}
+}
+@media all and (max-width: 593px)
+{
+	#sec1_heberg
+	{
+		width: auto;
+		height: 1480px;
+	}
+	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles, .Hôtelchezs
+	{
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	#bloc_images1, #bloc_images2
+	{
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 600px)
+{
+	
+	.bloc_logonav
+	{
+		height: 150px;
+	}
+	.logo_logonav
+	{
+		height: 60px;
+	}
+	.bloc_nav
+	{
+		order: 2;
+		width: auto;
+		margin: auto;
+	}
+	.nav_sins
+	{
+		order: 1;
+		margin-left: auto;
+		height: 60px;
+	}
+	.nav_sins:hover
+	{
+		border-top: none;
+	}
+	.nav_heb, .nav_act
+	{
+		width: 160px;
+		height: 60px;
+	}
+	.nav_heb:hover, .nav_act:hover
+	{
+		border-top: none;
+		border-bottom: 2px #0065FC solid;
+	}
+}
+@media all and (max-width: 553px)
+{
+	#sec1_heberg
+	{
+		height: 1480px;
+	}
+}
+@media all and (max-width: 452px)
+{
+	.bloc_filtres
+	{
+		height: 180px;
+	}
+	.fil
+	{
+		height: 50px;
+	}
+}
+@media all and (max-width: 400px)
+{
+	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	{
+		width: auto;
+	}
+	.textles
+	{
+		font-size: 1.1em;
+	}
+}
+@media all and (max-width: 382px)
+{
+	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	{
+		width: 290px;
+	}
+	#bloc_lesplus
+	{
+		width: 290px;
+	}
+	.bloc_images3
+	{
+		width: 290px;
+	}
+	.desc2
+	{
+		height: 20px;
+	}
+	.bloc_search
+	{
+		width: auto;
+	}
+}
+@media all and (max-width: 365px)
+{
+	.bloc_filtres
+	{
+		height: 200px;
+	}
+}
+
+@media all and (max-width: 270px)
+{
+	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	{
+		width: 220px;
+	}
+	#bloc_lesplus
+	{
+		width: 220px;
+	}
+	.bloc_images3
+	{
+		width: 220px;
+	}
+}
+@media all and (min-width: 1360px)
+{
+	.bloc_images3
+	{
+		width: 330px;
+	}
+	.textlog
+	{
+		width: 330px;
+	}
+	#sec1_heberg
+	{
+		width: 830px;
+	}
+	#bloc_lesplus
+	{
+		width: 380px;
+		margin-left: 30px;
+	}
+	#conteneur_sec1
+	{
+		justify-content: center;
+	}	      
+}
+@media all and (min-width: 1270px)
+{
+	#bloc_images1, #bloc_images2
+	{
+		width: 96%;
+		margin-left: 5%;
+	}
+}
+@media all and (min-width: 1600px)
+{
+	#bloc_lesplus
+	{
+		width: 400px;
+	}
+	#sec1_heberg
+	{
+		width: 850px;
+		
+	}
+	.conteneur_head
+	{
+		width: 1300px;
+	}
+	.conteneur_sec2
+	{
+		width: 1600px;
+		
+	}
+	.bloc_sec2
+	{
+		width: 100%;
+		
+	}
+	.footer
+	{
+		width: 1350px;
+	}
+}
+@media all and (max-width: 1200px)
+{
+	#bloc_lesplus
+	{
+		width: 500px;
+	}
+	#sec1_heberg
+	{
+		width: 600px;
+	}
+}
