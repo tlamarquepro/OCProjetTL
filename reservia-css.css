@@ -18,46 +18,53 @@
 }
 .bloc_logonav
 {
-	height: 100px;
+	height: 80px;
 	display: flex;
 	margin: auto;
 	flex-wrap: wrap;
+	
 }
 .logo_logonav
 {
 	height: 80px;
 	margin-top: 10px;
+	
 }
 .bloc_nav
 {
 	display: flex;
 	margin-left: auto;
+	height: 60px;
+	
 }
 .nav_heb
 {
-	height: 100px;
+	height: 60px;
 	width: 135px;
 	text-align: center;
 	font-family: Raleway;
 	font-size: 0.85em;
 	padding-top: 30px;
+	
 }
 .nav_act
 {
-	height: 100px;
+	height: 60px;
 	width: 135px;
 	text-align: center;
 	font-family: Raleway;
 	font-size: 0.85em;
 	padding-top: 30px;
+	
 }
 .nav_sins
 {
-	height: 100px;
+	height: 60px;
 	width: 130px;
 	text-align: center;
 	font-family: Raleway;
 	font-size: 0.85em;
+	
 }
 .nav_heb:hover
 {
@@ -147,6 +154,10 @@
 .mot
 {
 	color: white;
+}
+.loupe
+{
+	display: none;
 }
 .bloc_filtres
 {
@@ -947,19 +958,29 @@ a
 	{
 		justify-content: center;
 	}
+	.propos, .Nos, .Assist
+	{
+		margin-left: 20px;
+	}
+
 }
 @media all and (max-width: 593px)
 {
 	#sec1_heberg
 	{
 		width: auto;
-		height: 1480px;
+		height: 1400px;
 	}
-	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles, .Hôtelchezs
+	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles
 	{
 		margin: auto;
 		margin-bottom: 20px;
 	}
+	.Hôtelchezs
+	{
+		margin: auto;
+	}
+
 	#bloc_images1, #bloc_images2
 	{
 		flex-direction: column;
@@ -974,7 +995,7 @@ a
 	}
 	.logo_logonav
 	{
-		height: 60px;
+		height: 30px;
 	}
 	.bloc_nav
 	{
@@ -986,7 +1007,7 @@ a
 	{
 		order: 1;
 		margin-left: auto;
-		height: 60px;
+		height: 30px;
 	}
 	.nav_sins:hover
 	{
@@ -995,7 +1016,7 @@ a
 	.nav_heb, .nav_act
 	{
 		width: 160px;
-		height: 60px;
+		height: 30px;
 	}
 	.nav_heb:hover, .nav_act:hover
 	{
@@ -1007,7 +1028,7 @@ a
 {
 	#sec1_heberg
 	{
-		height: 1480px;
+		height: 1400px;
 	}
 }
 @media all and (max-width: 452px)
@@ -1052,7 +1073,50 @@ a
 	}
 	.bloc_search
 	{
-		width: auto;
+		width: 300px;
+	}
+	.rechercher
+	{
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+	.mot
+	{
+		display: none;
+	}
+	.loupe
+	{
+		display: unset;
+		margin-left: 10px;		
+		color: white;
+		font-size: 1.2em
+	}
+	.fil
+	{
+		margin-right: 200px;
+	}
+	.eco, .fam, .rom, .ani
+	{
+		margin-bottom: 10px;
+	}
+	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles, .Hôtelchezs
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-top: 30px;
+	}
+	.Aubergela, .Hôteldu, .Hôtelles, .Hôtelde, .Aubergele, .Hôtelchez
+	{
+		width: 99%
+	}
+	.vieuxs, .parcs, .fort1s, .iles, .notre1s, .parcls
+	{
+		width: 300px;
+	}
+	.vieux, .parc, .fort1, .ile, .notre1, .parcl
+	{
+		width: 301px;
 	}
 }
 @media all and (max-width: 365px)
