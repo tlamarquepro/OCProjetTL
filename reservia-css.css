@@ -986,7 +986,7 @@ a
 		flex-direction: column;
 	}
 }
-@media all and (max-width: 600px)
+@media all and (max-width: 540px)
 {
 	
 	.bloc_logonav
