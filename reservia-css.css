@@ -22,7 +22,6 @@
 	display: flex;
 	margin: auto;
 	flex-wrap: wrap;
-	
 }
 .logo_logonav
 {
@@ -296,48 +295,48 @@
 {
 	width: 700px;
 }
-#conteneur_sec1
+.conteneur_sec1
 {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 }
-	      /*Les hébergements_images de fonds*/
+	      /*Les hebergements_images de fonds*/
 	.Aubergela
 	{
-		background-image: url("images/Hébergements/Auberge la Cannebière M.jpg");
+		background-image: url("images/Hebergements/Auberge_la_Cannebiere_M.jpg");
 	}
-	.Hôtelde
+	.Hotelde
 	{
-		background-image: url("images/Hébergements/Hôtel de la mer M.jpg");
+		background-image: url("images/Hebergements/Hotel_de_la_mer_M.jpg");
 	}
-	.Hôteldu
+	.Hoteldu
 	{
-		background-image: url("images/Hébergements/Hôtel du port M.jpg");
+		background-image: url("images/Hebergements/Hotel_du_port_M.jpg");
 	}
 	.Aubergele
 	{
-		background-image: url("images/Hébergements/Auberge Le Panier M.jpg");
+		background-image: url("images/Hebergements/Auberge_Le_Panier_M.jpg");
 	}
-	.Hôtelles
+	.Hotelles
 	{
-		background-image: url("images/Hébergements/Hôtel Les mouettes M.jpg");
+		background-image: url("images/Hebergements/Hotel_Les_mouettes_M.jpg");
 	}
-	.Hôtelchez
+	.Hotelchez
 	{
-		background-image: url("images/Hébergements/Hôtel chez Amina M.jpg");
+		background-image: url("images/Hebergements/Hotel_chez_Amina_M.jpg");
 	}
-	.Hôtellesol
+	.Hotellesol
 	{
-		background-image: url("images/Hébergements/Hôtel Le soleil du matin M.jpg");
+		background-image: url("images/Hebergements/Hotel_Le_soleil_du_matin_M.jpg");
 	}
 	.Aucoeur
 	{
-		background-image: url("images/Hébergements/Au coeur de l'eau Chambres d'hôtes M.jpg");
+		background-image: url("images/Hebergements/Au_coeur_de_l'eau_Chambres_d'hotes_M.jpg");
 	}
-	.Hôteltout
+	.Hoteltout
 	{
-		background-image: url("images/Hébergements/Hôtel Tout bleu et Blanc M.jpg");
+		background-image: url("images/Hebergements/Hotel_Tout bleu_et_Blanc_M.jpg");
 	}
 
 #bloc_lesplus, #sec1_heberg
@@ -347,7 +346,7 @@
 	border-radius: 20px;
 }
 
-			 /*Les hébergements*/
+			 /*Les hebergements*/
 	#sec1_heberg
 	{
 		width: 63%;
@@ -382,7 +381,7 @@
 		margin-top: 7px;
 		margin-bottom: 8px;
 	}
-	.Aubergelas, .Hôteldus, .Hôtelless
+	.Aubergelas, .Hoteldus, .Hotelless
 	{
 		background-color: white;
 		border: 3px white solid;
@@ -392,7 +391,7 @@
 		box-shadow: 1px 1px 12px silver;
 		margin-right: 20px;
 	}
-	.Hôteldes, .Aubergeles, .Hôtelchezs
+	.Hoteldes, .Aubergeles, .Hotelchezs
 	{
 		background-color: white;
 		border: 3px white solid;
@@ -402,7 +401,7 @@
 		box-shadow: 1px 1px 12px silver;
 		margin-right: 20px;
 	}
-	.Aubergela, .Hôtelde, .Hôteldu, .Aubergele, .Hôtelles, .Hôtelchez
+	.Aubergela, .Hotelde, .Hoteldu, .Aubergele, .Hotelles, .Hotelchez
 	{
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -479,7 +478,7 @@
 		width: 85%;
 		margin: auto;
 	}
-	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		background-color: white;
 		border: 3px white solid;
@@ -490,7 +489,7 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	.Hôtellesol, .Aucoeur, .Hôteltout
+	.Hotellesol, .Aucoeur, .Hoteltout
 	{
 		border-top-left-radius: 18px;
 		border-bottom-left-radius: 18px; 
@@ -499,7 +498,7 @@
 		margin-top: 3px;
 		margin-left: 3px;
 	}
-	.Hôtellesols
+	.Hotellesols
 	{
 		margin-top: 5px;
 	} 
@@ -507,7 +506,7 @@
 	{
 		margin-top: 32px;
 	}
-	.Hôteltouts
+	.Hoteltouts
 	{
 		margin-top: 32px;
 	}
@@ -586,7 +585,7 @@
 	}
 	.vieuxs
 	{
-		background-image: url("images/Activités/Vieux Port.jpg");
+		background-image: url("images/Activites/Vieux_Port.jpg");
 	}
 	.fort
 	{
@@ -604,7 +603,7 @@
 	}
 	.fort1s
 	{
-		background-image: url("images/Activités/Fort de Pomègues.jpg");
+		background-image: url("images/Activites/Fort_de_Pomegues.jpg");
 		height: 162px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -619,7 +618,7 @@
 	}
 	.iles
 	{
-		background-image: url("images/Activités/Îles du Frioul.jpg");
+		background-image: url("images/Activites/Iles_du_Frioul.jpg");
 		height: 98px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -647,7 +646,7 @@
 	}
 	.parcs
 	{
-		background-image: url("images/activités/Parc National des Calanques.jpg");
+		background-image: url("images/activites/Parc_National_des_Calanques.jpg");
 	}
 	.notre
 	{
@@ -665,7 +664,7 @@
 	}
 	.notre1s
 	{
-		background-image: url("images/Activités/Notre-Dame-de-la-Garde.jpg");
+		background-image: url("images/Activites/Notre-Dame-de-la-Garde.jpg");
 		height: 125px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -680,7 +679,7 @@
 	}
 	.parcls
 	{
-		background-image: url("images/Activités/Parc Longchamp.jpg");
+		background-image: url("images/Activites/Parc_Longchamp.jpg");
 		height: 138px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -763,7 +762,7 @@ a
 		height: 1000px;
 		width: 570px;
 	}
-	.Aubergelas, .Hôteldes
+	.Aubergelas, .Hoteldes
 	{
 		margin-bottom: 20px;
 	}
@@ -809,27 +808,27 @@ a
 	}
 	.vieuxs
 	{
-		background-image: url("images/Activités/Vieux Port M.jpg");
+		background-image: url("images/Activites/Vieux_Port_M.jpg");
 	}
 	.fort1s
 	{
-		background-image: url("images/Activités/Fort de Pomègues M.jpg");
+		background-image: url("images/Activites/Fort_de_Pomegues_M.jpg");
 	}
 	.iles
 	{
-		background-image: url("images/Activités/Îles du Frioul M.jpg");
+		background-image: url("images/Activites/Iles_du_Frioul_M.jpg");
 	}
 	.parcs
 	{
-		background-image: url("images/Activités/Parc National des Calanques M.jpg");
+		background-image: url("images/Activites/Parc_National_des_Calanques_M.jpg");
 	}
 	.notre1s
 	{
-		background-image: url("images/Activités/Notre-Dame-de-la-Garde M.jpg");
+		background-image: url("images/Activites/Notre-Dame-de-la-Garde_M.jpg");
 	}
 	.parcls
 	{
-		background-image: url("images/Activités/Parc Longchamp M.jpg");
+		background-image: url("images/Activites/Parc_Longchamp_M.jpg");
 	}
 	.vieux
 	{
@@ -871,11 +870,11 @@ a
 		width: 320px;
 		height: 1420px;
 	}
-	.Hôteldus, .Aubergeles
+	.Hoteldus, .Aubergeles
 	{
 		margin-bottom: 20px;
 	}
-	#conteneur_sec1
+	.conteneur_sec1
 	{
 		justify-content: center;
 	}	      
@@ -905,7 +904,7 @@ a
 }
 @media all and (max-width: 700px)
 {
-	#conteneur_sec1
+	.conteneur_sec1
 	{
 		flex-wrap: wrap;
 	}
@@ -941,16 +940,16 @@ a
 	{
 		margin: auto;
 	}
-	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		width: 310px;
 		margin: auto;
 	}
-	.Hôtellesols, .Aucoeurs
+	.Hotellesols, .Aucoeurs
 	{
 		margin-bottom: 30px;
 	}
-	.Aubergelas, .Hôteldus, .Hôteldes, .Aubergeles
+	.Aubergelas, .Hoteldus, .Hoteldes, .Aubergeles
 	{
 		margin-bottom: 20px;
 	}
@@ -971,12 +970,12 @@ a
 		width: auto;
 		height: 1400px;
 	}
-	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles
+	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles
 	{
 		margin: auto;
 		margin-bottom: 20px;
 	}
-	.Hôtelchezs
+	.Hotelchezs
 	{
 		margin: auto;
 	}
@@ -988,7 +987,6 @@ a
 }
 @media all and (max-width: 540px)
 {
-	
 	.bloc_logonav
 	{
 		height: 150px;
@@ -1044,7 +1042,7 @@ a
 }
 @media all and (max-width: 400px)
 {
-	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		width: auto;
 	}
@@ -1055,7 +1053,7 @@ a
 }
 @media all and (max-width: 382px)
 {
-	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		width: 290px;
 	}
@@ -1099,14 +1097,14 @@ a
 	{
 		margin-bottom: 10px;
 	}
-	.Aubergelas, .Hôteldus, .Hôtelless, .Hôteldes, .Aubergeles, .Hôtelchezs
+	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles, .Hotelchezs
 	{
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 		border-top: 30px;
 	}
-	.Aubergela, .Hôteldu, .Hôtelles, .Hôtelde, .Aubergele, .Hôtelchez
+	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
 	{
 		width: 99%
 	}
@@ -1126,10 +1124,16 @@ a
 		height: 200px;
 	}
 }
-
+@media all and (max-width: 352px)
+{
+	.bloc_filtres
+	{
+		height: 240px;
+	}
+}
 @media all and (max-width: 270px)
 {
-	.Hôtellesols, .Aucoeurs, .Hôteltouts
+	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		width: 220px;
 	}
@@ -1161,7 +1165,7 @@ a
 		width: 380px;
 		margin-left: 30px;
 	}
-	#conteneur_sec1
+	.conteneur_sec1
 	{
 		justify-content: center;
 	}	      
