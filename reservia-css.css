@@ -1,20 +1,39 @@
+main
+{
+	margin: auto;
+}
 #bloc_page
 {
-	width: auto;
 	margin: auto;
-	max-width: 1600px;
+	max-width: 1700px;
+	margin: 0px 5% 0px 5%;
+	border: 1px black solid;
+}
+.conteneur_sec1
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border: 1px black solid;
 }
 .sec2_texte
 {
 	max-width: 1280px;
 }
-.bloc_sec2
+.conteneur_sec2
 {
-	max-width: 1280px;
+	border: 1px black solid;
+	width: 100%;
+}
+
+{
+	width: 100%;
+	border: 1px black solid;
 }
 .conteneur_head
 {
-	margin: auto;
+	width: 100%;
+	border: 1px black solid;
 }
 .bloc_logonav
 {
@@ -44,6 +63,7 @@
 	font-family: Raleway;
 	font-size: 0.85em;
 	padding-top: 30px;
+	border: 2px white solid;
 	
 }
 .nav_act
@@ -54,7 +74,7 @@
 	font-family: Raleway;
 	font-size: 0.85em;
 	padding-top: 30px;
-	
+	border: 2px white solid;
 }
 .nav_sins
 {
@@ -63,6 +83,7 @@
 	text-align: center;
 	font-family: Raleway;
 	font-size: 0.85em;
+	border: 2px white solid;
 	
 }
 .nav_heb:hover
@@ -295,12 +316,7 @@
 {
 	width: 700px;
 }
-.conteneur_sec1
-{
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-}
+
 	      /*Les hebergements_images de fonds*/
 	.Aubergela
 	{
@@ -556,15 +572,15 @@
 	}
 	.bloc_sec2
 	{
-		width: 90%;
 		height: 464px;
 		display: flex;
-		margin: auto;
+
 	}
 	.bloc_img31
 	{
 		width: 50%;
 		height: 406px;
+		border: 1px black solid;
 	}
 	.bloc_sec2-1
 	{
@@ -573,6 +589,8 @@
 		margin-right: 5%;
 		display: flex;
 		justify-content: space-between;
+		border: 1px black solid;
+
 	}
 	.vieux
 	{
@@ -589,7 +607,7 @@
 	}
 	.fort
 	{
-		width: 46%;
+		width: 40%;
 		height: 406px;
 	}
 	.fort1
@@ -627,14 +645,16 @@
 	{
 		width: 50%;
 		height: 406px;
+		border: 1px black solid;
+		margin-left: 30px;
 	}
 	.bloc_sec2-2
 	{
-		width: 97%;
+		width: 100%;
 		height: 406px;
-		margin-left: 3%;
 		display: flex;
 		justify-content: space-between;
+		border: 1px black solid;
 	}
 	.parc
 	{
@@ -650,7 +670,7 @@
 	}
 	.notre
 	{
-		width: 46%;
+		width: 40%;
 		height: 406px;
 	}
 	.notre1
@@ -707,9 +727,8 @@
 		background-color: #F2F2F2;
 		display: flex;
 		justify-content: center;
-		width: 100%;
+		width: 95%;
 		height: 192px;
-		max-width: 1400px;
 		margin: auto;
 	}
 	.propos, .Nos, .Assist
@@ -744,14 +763,15 @@ a
 	text-decoration: none;
 	color: black;
 }
-@media all and (max-width: 1352px)
+@media all and (min-width: 1700px)
 {
-	.nav1
+	#bloc_page
 	{
-		margin-left: auto;
+		margin: auto;
+		border: 1px black solid;
 	}
 }
-@media all and (max-width: 1300px)
+@media all and (max-width: 1400px)
 {
 	#bloc_images1, #bloc_images2
 	{
@@ -774,7 +794,53 @@ a
 	.bloc_img31
 	{
 		margin-bottom: 20px;
-		margin-left: 16px;
+		margin-left: 35px;
+	}    
+}
+@media all and (min-width: 1360px)
+{
+	.bloc_images3
+	{
+		width: 330px;
+	}
+	.textlog
+	{
+		width: 330px;
+	}
+	#sec1_heberg
+	{
+		width: 830px;
+	}
+	#bloc_lesplus
+	{
+		width: 380px;
+		margin-left: 30px;
+	}      
+}
+@media all and (max-width: 1352px)
+{
+	.nav1
+	{
+		margin-left: auto;
+	}
+}
+@media all and (min-width: 1270px)
+{
+	#bloc_images1, #bloc_images2
+	{
+		width: 96%;
+		margin-left: 5%;
+	}
+}
+@media all and (max-width: 1200px)
+{
+	#bloc_lesplus
+	{
+		width: 500px;
+	}
+	#sec1_heberg
+	{
+		width: 600px;
 	}
 }
 @media all and (max-width: 1195px)
@@ -904,6 +970,11 @@ a
 }
 @media all and (max-width: 700px)
 {
+	#bloc_page
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 	.conteneur_sec1
 	{
 		flex-wrap: wrap;
@@ -961,7 +1032,6 @@ a
 	{
 		margin-left: 20px;
 	}
-
 }
 @media all and (max-width: 593px)
 {
@@ -1010,11 +1080,14 @@ a
 	.nav_sins:hover
 	{
 		border-top: none;
+
 	}
 	.nav_heb, .nav_act
 	{
 		width: 160px;
 		height: 30px;
+		border-bottom: 2px grey solid;
+		border: 1px black solid;
 	}
 	.nav_heb:hover, .nav_act:hover
 	{
@@ -1146,76 +1219,4 @@ a
 		width: 220px;
 	}
 }
-@media all and (min-width: 1360px)
-{
-	.bloc_images3
-	{
-		width: 330px;
-	}
-	.textlog
-	{
-		width: 330px;
-	}
-	#sec1_heberg
-	{
-		width: 830px;
-	}
-	#bloc_lesplus
-	{
-		width: 380px;
-		margin-left: 30px;
-	}
-	.conteneur_sec1
-	{
-		justify-content: center;
-	}	      
-}
-@media all and (min-width: 1270px)
-{
-	#bloc_images1, #bloc_images2
-	{
-		width: 96%;
-		margin-left: 5%;
-	}
-}
-@media all and (min-width: 1600px)
-{
-	#bloc_lesplus
-	{
-		width: 400px;
-	}
-	#sec1_heberg
-	{
-		width: 850px;
-		
-	}
-	.conteneur_head
-	{
-		width: 1300px;
-	}
-	.conteneur_sec2
-	{
-		width: 1600px;
-		
-	}
-	.bloc_sec2
-	{
-		width: 100%;
-		
-	}
-	.footer
-	{
-		width: 1350px;
-	}
-}
-@media all and (max-width: 1200px)
-{
-	#bloc_lesplus
-	{
-		width: 500px;
-	}
-	#sec1_heberg
-	{
-		width: 600px;
-	}
-}
+
