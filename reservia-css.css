@@ -5,15 +5,15 @@ main
 #bloc_page
 {
 	margin: auto;
-	max-width: 1700px;
+	max-width: 1600px;
 	margin: 0px 5% 0px 5%;
 	border: 1px black solid;
 }
 .conteneur_sec1
 {
 	display: flex;
+	width: auto;
 	justify-content: space-between;
-	width: 100%;
 	border: 1px black solid;
 }
 .sec2_texte
@@ -25,297 +25,297 @@ main
 	border: 1px black solid;
 	width: 100%;
 }
-
-{
-	width: 100%;
-	border: 1px black solid;
-}
 .conteneur_head
 {
 	width: 100%;
 	border: 1px black solid;
 }
-.bloc_logonav
-{
-	height: 80px;
-	display: flex;
-	margin: auto;
-	flex-wrap: wrap;
-}
-.logo_logonav
-{
-	height: 80px;
-	margin-top: 10px;
-	
-}
-.bloc_nav
-{
-	display: flex;
-	margin-left: auto;
-	height: 60px;
-	
-}
-.nav_heb
-{
-	height: 60px;
-	width: 135px;
-	text-align: center;
-	font-family: Raleway;
-	font-size: 0.85em;
-	padding-top: 30px;
-	border: 2px white solid;
-	
-}
-.nav_act
-{
-	height: 60px;
-	width: 135px;
-	text-align: center;
-	font-family: Raleway;
-	font-size: 0.85em;
-	padding-top: 30px;
-	border: 2px white solid;
-}
-.nav_sins
-{
-	height: 60px;
-	width: 130px;
-	text-align: center;
-	font-family: Raleway;
-	font-size: 0.85em;
-	border: 2px white solid;
-	
-}
-.nav_heb:hover
-{
-	color: #0065FC;
-	border-top: 2px #0065FC solid;
-}
-.nav_act:hover
-{
-	color: #0065FC;
-	border-top: 2px #0065FC solid;
-}
-.nav_sins
-{
-	color: #0065FC;
-	font-weight: bold;
-}
-.nav_sins:hover
-{
-	border-top: 2px #0065FC solid;
-}
-.trouv
-{
-	font-family: Raleway;
-	font-size: 1.2em;
-	font-weight: bold;
-	margin-bottom: 6px;
-}
-.en
-{
-	font-family: Raleway;
-	font-size: 0.9em;
-}
-.bloc_search
-{
-	border: 1px silver solid;
-	display: flex;
-	width: 370px;
-	height: 48px;
-	border-radius: 16px;
-}
-.logsearch
-{
-	width: 46px;
-	border-bottom-left-radius: 16px;
-	border-top-left-radius: 16px;
-	justify-content: center;
-	background-color: #F2F2F2;
-}
-.point
-{
-	margin: 15px 10px 10px 16px;
-	font-size: 0.9em;
-	background-color: #F2F2F2;
-}
-.search
-{
-	width: 206px;
-}
-.for
-{
-	width: 200px;
-}
-#recherches
-{
-	border: 1px white solid;
-	height: 40px;
-	font-family: Raleway;
-	font-size: 1em;
-	font-weight: bold;
-}
-.rechercher
-{
-	width: 118px;
-	border-top-right-radius: 16px;
-	border-bottom-right-radius: 16px;
-	background-color: #0065FC;
-}
-.recherche
-{
-	margin-top: 14px;
-	margin-left: 10px;
-	width: 80%;
-	font-family: Raleway;
-	font-size: 1em;
-	font-weight: bold;
-}
-.mot
-{
-	color: white;
-}
-.loupe
-{
-	display: none;
-}
-.bloc_filtres
-{
-	font-family: Raleway;
-	width: 834px;
-	height: 44px;
-	display: flex;
-	margin-top: 26px;
-}
-.fil
-{
-	margin-right: 24px;
-}
-.fils
-{
-	margin-top: 12px;
-}
-.billet, .enfant, .coeur, .chien
-{
-	margin: 12px 12px 12px 12px;
-	color: #0065FC;
-}
-.eco
-{
-	border: 2px silver solid;
-	width: 171px;
-	margin-right: 24px;
-	display: flex;
-	border-radius: 22px;
-	height: 40px;
-}
-.eco:hover, .fam:hover, .rom:hover, .ani:hover
-{
-	box-shadow: 3px 3px 24px silver;
-}
-.ronde
-{
-	width: 40px;
-	border-radius: 40px;
-	margin-right: 12px;
-	background-color: #DEEBFF;
-}
-.ecos
-{
-	width: 100px;
-	margin-top: 12px;
-}
-.fam
-{
-	border: 2px silver solid;
-	width: 132px;
-	margin-right: 24px;
-	display: flex;
-	border-radius: 22px;
-	height: 40px;
-}
-.rondf
-{
-	width: 40px;
-	border-radius: 40px;
-	margin-right: 12px;
-	background-color: #DEEBFF;
-}
-.fams
-{
-	width: 60px;
-	margin-top: 12px;
-}
-.rom
-{
-	border: 2px silver solid;
-	width: 162px;
-	margin-right: 24px;
-	display: flex;
-	border-radius: 22px;
-	height: 40px;
-}
-.rondr
-{
-	width: 40px;
-	border-radius: 40px;
-	margin-right: 12px;
-	background-color: #DEEBFF;
-}
-.roms
-{
-	width: 100px;
-	margin-top: 12px;
-}
-.ani
-{
-	border: 2px silver solid;
-	width: 213px;
-	display: flex;
-	border-radius: 22px;
-	height: 40px;
-}
-.ronda
-{
-	width: 40px;
-	border-radius: 40px;
-	margin-right: 12px;
-	background-color: #DEEBFF;
-}
-.anis
-{
-	width: 150px;
-	margin-top: 12px;
-}
-.bloc_info
-{
-	display: flex;
-}
-.case
-{
-	width: 24px;
-}
-.ii
-{
-	border: 1px silver solid;
-	width: 20px;
-	height: 20px;
-	margin-top: 10px;
-	border-radius: 20px;
-}
-.i
-{
-	width: 5px;
-	height: 13px;
-	color: #0065FC;
-	font-size: 0.6em;
-	margin: auto;
-	margin-top: 4px;
-}
-.phrase
-{
-	width: 700px;
-}
+/*lehead*/
+
+	.bloc_logonav
+	{
+		height: 80px;
+		display: flex;
+		margin: auto;
+		flex-wrap: wrap;
+	}
+	.logo_logonav
+	{
+		height: 80px;
+		margin-top: 10px;
+		
+	}
+	.bloc_nav
+	{
+		display: flex;
+		margin-left: auto;
+		height: 60px;
+		
+	}
+	.nav_heb
+	{
+		height: 60px;
+		width: 135px;
+		text-align: center;
+		font-family: Raleway;
+		font-size: 0.85em;
+		padding-top: 30px;
+		border: 2px white solid;
+		
+	}
+	.nav_act
+	{
+		height: 60px;
+		width: 135px;
+		text-align: center;
+		font-family: Raleway;
+		font-size: 0.85em;
+		padding-top: 30px;
+		border: 2px white solid;
+	}
+	.nav_sins
+	{
+		height: 60px;
+		width: 130px;
+		text-align: center;
+		font-family: Raleway;
+		font-size: 0.85em;
+		border: 2px white solid;
+		
+	}
+	.nav_heb:hover
+	{
+		color: #0065FC;
+		border-top: 2px #0065FC solid;
+	}
+	.nav_act:hover
+	{
+		color: #0065FC;
+		border-top: 2px #0065FC solid;
+	}
+	.nav_sins
+	{
+		color: #0065FC;
+		font-weight: bold;
+	}
+	.nav_sins:hover
+	{
+		border-top: 2px #0065FC solid;
+	}
+	.trouv
+	{
+		font-family: Raleway;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: 6px;
+	}
+	.en
+	{
+		font-family: Raleway;
+		font-size: 0.9em;
+	}
+	.bloc_search
+	{
+		border: 1px silver solid;
+		display: flex;
+		width: 370px;
+		height: 48px;
+		border-radius: 16px;
+	}
+	.logsearch
+	{
+		width: 46px;
+		border-bottom-left-radius: 16px;
+		border-top-left-radius: 16px;
+		justify-content: center;
+		background-color: #F2F2F2;
+	}
+	.point
+	{
+		margin: 15px 10px 10px 16px;
+		font-size: 0.9em;
+		background-color: #F2F2F2;
+	}
+	.search
+	{
+		width: 206px;
+	}
+	.for
+	{
+		width: 200px;
+		height: 40px;
+		margin-top: 5px;
+	}
+	#recherches
+	{
+		border: 1px white solid;
+		height: 40px;
+		font-family: Raleway;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.rechercher
+	{
+		width: 118px;
+		border-top-right-radius: 16px;
+		border-bottom-right-radius: 16px;
+		background-color: #0065FC;
+	}
+	.recherche
+	{
+		margin-top: 14px;
+		margin-left: 10px;
+		width: 80%;
+		font-family: Raleway;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.mot
+	{
+		color: white;
+	}
+	.loupe
+	{
+		display: none;
+	}
+	.bloc_filtres
+	{
+		font-family: Raleway;
+		width: 834px;
+		height: 44px;
+		display: flex;
+		margin-top: 26px;
+	}
+	.fil
+	{
+		margin-right: 24px;
+	}
+	.fils
+	{
+		margin-top: 12px;
+	}
+	.billet, .enfant, .coeur, .chien
+	{
+		margin: 12px 12px 12px 12px;
+		color: #0065FC;
+	}
+	.eco
+	{
+		border: 2px silver solid;
+		width: 171px;
+		margin-right: 24px;
+		display: flex;
+		border-radius: 22px;
+		height: 40px;
+	}
+	.eco:hover, .fam:hover, .rom:hover, .ani:hover
+	{
+		box-shadow: 3px 3px 24px silver;
+	}
+	.ronde
+	{
+		width: 40px;
+		border-radius: 40px;
+		margin-right: 12px;
+		background-color: #DEEBFF;
+	}
+	.ecos
+	{
+		width: 100px;
+		margin-top: 12px;
+	}
+	.fam
+	{
+		border: 2px silver solid;
+		width: 132px;
+		margin-right: 24px;
+		display: flex;
+		border-radius: 22px;
+		height: 40px;
+	}
+	.rondf
+	{
+		width: 40px;
+		border-radius: 40px;
+		margin-right: 12px;
+		background-color: #DEEBFF;
+	}
+	.fams
+	{
+		width: 60px;
+		margin-top: 12px;
+	}
+	.rom
+	{
+		border: 2px silver solid;
+		width: 162px;
+		margin-right: 24px;
+		display: flex;
+		border-radius: 22px;
+		height: 40px;
+	}
+	.rondr
+	{
+		width: 40px;
+		border-radius: 40px;
+		margin-right: 12px;
+		background-color: #DEEBFF;
+	}
+	.roms
+	{
+		width: 100px;
+		margin-top: 12px;
+	}
+	.ani
+	{
+		border: 2px silver solid;
+		width: 213px;
+		display: flex;
+		border-radius: 22px;
+		height: 40px;
+	}
+	.ronda
+	{
+		width: 40px;
+		border-radius: 40px;
+		margin-right: 12px;
+		background-color: #DEEBFF;
+	}
+	.anis
+	{
+		width: 150px;
+		margin-top: 12px;
+	}
+	.bloc_info
+	{
+		display: flex;
+	}
+	.case
+	{
+		width: 24px;
+	}
+	.ii
+	{
+		border: 1px silver solid;
+		width: 20px;
+		height: 20px;
+		margin-top: 10px;
+		border-radius: 20px;
+	}
+	.i
+	{
+		width: 5px;
+		height: 13px;
+		color: #0065FC;
+		font-size: 0.6em;
+		margin: auto;
+		margin-top: 4px;
+	}
+	.phrase
+	{
+		width: 700px;
+	}
+
 
 	      /*Les hebergements_images de fonds*/
 	.Aubergela
@@ -361,19 +361,29 @@ main
 	border: 5px #F2F2F2 solid;
 	border-radius: 20px;
 }
+#sec1_heberg
+{
+	width: 850px;
+	height: 600px;
+	border: 1px black solid;
+}
+#bloc_lesplus
+{
+	width: 450px;
+	height: 600px;
+	margin-right: 150px; 
+	border: 1px black solid;
+}
 
-			 /*Les hebergements*/
-	#sec1_heberg
-	{
-		width: 63%;
-		height: 600px;
-	}
+/*Section 1 - Hebergements*/
+	
 	.textheb
 	{
 		width: 92%;
 		text-align: left;
 		font-family: Raleway;
-		margin-left: 3%;	
+		margin-left: 3%;
+		margin-bottom: 30px;	
 	}
 	.textheb1
 	{
@@ -461,12 +471,8 @@ main
 		color: #F2F2F2;
 	}
 
-			 /*Les plus populaires*/
-	#bloc_lesplus
-	{
-		width: 30%;
-		height: 600px;
-	}
+/*Section 1 - Les plus populaires*/
+	
 	.textlog
 	{
 		display: flex;
@@ -474,6 +480,8 @@ main
 		height: 80px;
 		justify-content: flex-end;
 		justify-content: space-between;
+		border: 1px black solid;
+		margin: auto;
 	}
 	.textles
 	{
@@ -503,15 +511,14 @@ main
 		height:	137px;
 		box-shadow: 1px 1px 20px silver;
 		display: flex;
-		justify-content: space-between;
 	}
 	.Hotellesol, .Aucoeur, .Hoteltout
 	{
 		border-top-left-radius: 18px;
 		border-bottom-left-radius: 18px; 
-		width: 124px;
-		height: 128px;
-		margin-top: 3px;
+		width: 138px;
+		height: 134px;
+		margin-top: 2px;
 		margin-left: 3px;
 	}
 	.Hotellesols
@@ -549,7 +556,7 @@ main
 		font-size: 0.8em;
 		margin-bottom: 5px;
 		width: 75%;
-		height: 48px;
+		height: 60px;
 	}
 	.note1
 	{
@@ -557,7 +564,7 @@ main
 		font-size: 0.7em;
 	}
 
-	 		 /*Section 2*/
+/*Section 2 - Activites*/
 
 	.sec2_texte
 	{
@@ -567,8 +574,8 @@ main
 		font-family: Raleway;
 		font-weight: bold;
 		font-size: 1.1em;
-		margin: auto;
 		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 	.bloc_sec2
 	{
@@ -763,13 +770,38 @@ a
 	text-decoration: none;
 	color: black;
 }
-@media all and (min-width: 1700px)
+@media all and (min-width: 1650px)
 {
+	main
+	{
+		margin:	auto;
+	}
 	#bloc_page
 	{
 		margin: auto;
 		border: 1px black solid;
 	}
+	.footer
+	{
+		width: 1650px;
+	}
+	.bloc_images3
+	{
+		width: 340px;
+	}
+}
+@media all and (max-width: 1649px)
+{
+	#sec1_heberg
+	{
+		width: 69%;
+	}
+	#bloc_lesplus
+	{
+		width: 30%;
+		margin-left: 30px;
+		margin-right: 0px;
+	}      
 }
 @media all and (max-width: 1400px)
 {
@@ -780,8 +812,12 @@ a
 	#sec1_heberg
 	{
 		height: 1000px;
-		width: 570px;
+		width: 60%;
 	}
+	#bloc_lesplus
+	{
+		width: 35%;
+	}      
 	.Aubergelas, .Hoteldes
 	{
 		margin-bottom: 20px;
@@ -797,25 +833,17 @@ a
 		margin-left: 35px;
 	}    
 }
-@media all and (min-width: 1360px)
+@media all and (max-width: 1373px)
 {
-	.bloc_images3
+	.desc2
 	{
-		width: 330px;
+		height: 60px;
 	}
-	.textlog
+	.titledesc1
 	{
-		width: 330px;
-	}
-	#sec1_heberg
-	{
-		width: 830px;
-	}
-	#bloc_lesplus
-	{
-		width: 380px;
-		margin-left: 30px;
-	}      
+		width: 180px;
+		border: 1px black solid;
+	}    
 }
 @media all and (max-width: 1352px)
 {
@@ -824,7 +852,7 @@ a
 		margin-left: auto;
 	}
 }
-@media all and (min-width: 1270px)
+@media all and (max-width: 1270px)
 {
 	#bloc_images1, #bloc_images2
 	{
@@ -845,18 +873,14 @@ a
 }
 @media all and (max-width: 1195px)
 {
-	#bloc_lesplus
-	{
-		width: 400px;
-		margin-left: 30px;
-	}
 	.bloc_sec2
 	{
 		height: 1300px;
+		justify-content: center;
 	}
 	.bloc_img32
 	{
-		margin-left: 8px;
+		margin-left: 26px;
 	}
 	.bloc_sec2-1
 	{
@@ -929,12 +953,11 @@ a
 		height: 170px;
 	}
 }
-@media all and (max-width: 1087px)
+@media all and (max-width: 1153px)
 {
 	#sec1_heberg
 	{
-		width: 320px;
-		height: 1420px;
+		height: 1450px;
 	}
 	.Hoteldus, .Aubergeles
 	{
@@ -949,10 +972,10 @@ a
 {
 	#sec1_heberg
 	{
-		width: 350px;
+		width: 350
 	}
 }
-@media all and (max-width: 843px)
+@media all and (max-width: 933px)
 {
 	.bloc_filtres
 	{
@@ -961,11 +984,18 @@ a
 		height: 100px;
 	}
 }
-@media all and (max-width: 730px)
+@media all and (max-width: 748px)
 {
 	.titledesc1
 	{
 		width:85%;
+	}
+}
+@media all and (max-width: 740px)
+{
+	#sec1_heberg
+	{
+		height: 1480px;
 	}
 }
 @media all and (max-width: 700px)
@@ -983,6 +1013,7 @@ a
 	{
 		flex-direction: column;
 		height:450px;
+		width: 100%;
 	}
 	.propos, .Nos, .Assist
 	{
@@ -1001,11 +1032,14 @@ a
 		width: 750px;
 		order: 1;
 		margin: auto;
+		border-radius: 0px;
 	}
 	.bloc_images3
 	{
 		margin: auto;
 		justify-content: center;
+		width: 85%;
+		border: 1px black solid;
 	}
 	.textlog
 	{
@@ -1037,22 +1071,29 @@ a
 {
 	#sec1_heberg
 	{
-		width: auto;
-		height: 1400px;
+		height: 1460px;
+		justify-content: center;
 	}
-	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles
+	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles, .Hotelchezs
 	{
 		margin: auto;
 		margin-bottom: 20px;
+		width: 308px;
 	}
 	.Hotelchezs
 	{
 		margin: auto;
 	}
+	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
+	{
+		width: 304px;
+	}
 
 	#bloc_images1, #bloc_images2
 	{
 		flex-direction: column;
+		margin: auto;
+		
 	}
 }
 @media all and (max-width: 540px)
@@ -1095,13 +1136,6 @@ a
 		border-bottom: 2px #0065FC solid;
 	}
 }
-@media all and (max-width: 553px)
-{
-	#sec1_heberg
-	{
-		height: 1400px;
-	}
-}
 @media all and (max-width: 452px)
 {
 	.bloc_filtres
@@ -1129,11 +1163,7 @@ a
 	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
 		width: 290px;
-	}
-	#bloc_lesplus
-	{
-		width: 290px;
-	}
+	}		
 	.bloc_images3
 	{
 		width: 290px;
