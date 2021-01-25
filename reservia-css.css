@@ -6,6 +6,7 @@ main
 {
 	margin: auto;
 	max-width: 1600px;
+	min-width: 340px;
 	margin: 0px 5% 0px 5%;
 	border: 1px black solid;
 }
@@ -30,6 +31,11 @@ main
 	width: 100%;
 	border: 1px black solid;
 }
+.conteneur_head2
+{
+	width: 100%;
+	border: 1px black solid;
+}
 /*lehead*/
 
 	.bloc_logonav
@@ -38,11 +44,13 @@ main
 		display: flex;
 		margin: auto;
 		flex-wrap: wrap;
+		border: 1px black solid;
 	}
 	.logo_logonav
 	{
 		height: 80px;
 		margin-top: 10px;
+		border: 1px black solid;
 		
 	}
 	.bloc_nav
@@ -50,6 +58,7 @@ main
 		display: flex;
 		margin-left: auto;
 		height: 60px;
+		border: 1px black solid;
 		
 	}
 	.nav_heb
@@ -61,6 +70,7 @@ main
 		font-size: 0.85em;
 		padding-top: 30px;
 		border: 2px white solid;
+		border: 1px black solid;
 		
 	}
 	.nav_act
@@ -72,6 +82,7 @@ main
 		font-size: 0.85em;
 		padding-top: 30px;
 		border: 2px white solid;
+		border: 1px black solid;
 	}
 	.nav_sins
 	{
@@ -81,6 +92,7 @@ main
 		font-family: Raleway;
 		font-size: 0.85em;
 		border: 2px white solid;
+		border: 1px black solid;
 		
 	}
 	.nav_heb:hover
@@ -317,7 +329,7 @@ main
 	}
 
 
-	      /*Les hebergements_images de fonds*/
+/*Les hebergements_images de fonds*/
 	.Aubergela
 	{
 		background-image: url("images/Hebergements/Auberge_La_Cannebiere_M.jpg");
@@ -383,7 +395,8 @@ main
 		text-align: left;
 		font-family: Raleway;
 		margin-left: 3%;
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
+		border: 1px black solid;
 	}
 	.textheb1
 	{
@@ -401,6 +414,7 @@ main
 		display:flex;
 		margin: auto;
 		width: 92%;
+		border: 1px black solid;
 	}
 	#bloc_images1
 	{
@@ -581,47 +595,52 @@ main
 	{
 		height: 464px;
 		display: flex;
-
+		width: 100%;
+		border: 1px black solid;
 	}
-	.bloc_img31
+	.sec21, .sec22
+	{
+		height: 416px;
+		display: flex;
+		border: 1px black solid;
+		width: 48%;
+	}
+	.sec21
+	{
+		margin-right: 5%;
+	}
+	.sec2-1, .sec2-2, .sec2-3, .sec2-4
 	{
 		width: 50%;
-		height: 406px;
-		border: 1px black solid;
+		height: 416px;
 	}
-	.bloc_sec2-1
+	.sec2-1
 	{
-		width: 97%;
-		height: 406px;
-		margin-right: 5%;
-		display: flex;
-		justify-content: space-between;
 		border: 1px black solid;
-
+		margin-right: 10%;
 	}
 	.vieux
 	{
 		background-color: white;
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
-		height:	404px;
+		width: 98%;
+		height:	408px;
 		box-shadow: 2px 2px 16px silver;
 	}
 	.vieuxs
 	{
 		background-image: url("images/Activites/Vieux_Port.jpg");
 	}
-	.fort
+	.sec2-2
 	{
-		width: 40%;
-		height: 406px;
+		border: 1px black solid;
 	}
 	.fort1
 	{
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
+		width: 97%;
 		height: 212px;
 		margin-bottom: 40px;
 		box-shadow: 2px 2px 16px silver;
@@ -629,6 +648,7 @@ main
 	.fort1s
 	{
 		background-image: url("images/Activites/Fort_de_Pomegues.jpg");
+		width: 100%;
 		height: 162px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
@@ -637,56 +657,46 @@ main
 	{
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
+		width: 97%;
 		height: 150px;
 		box-shadow: 2px 2px 16px silver;
 	}
 	.iles
 	{
 		background-image: url("images/Activites/Iles_du_Frioul.jpg");
+		width: 100%;
 		height: 98px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
 	}
-	.bloc_img32
+	.sec2-3
 	{
-		width: 50%;
-		height: 406px;
 		border: 1px black solid;
-		margin-left: 30px;
-	}
-	.bloc_sec2-2
-	{
-		width: 100%;
-		height: 406px;
-		display: flex;
-		justify-content: space-between;
-		border: 1px black solid;
+		margin-right: 10%;
 	}
 	.parc
 	{
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
-		height: 404px;
+		width: 98%;
+		height: 408px;
 		box-shadow: 2px 2px 16px silver;
 	}
 	.parcs
 	{
 		background-image: url("images/Activites/Parc_National_des_Calanques.jpg");
 	}
-	.notre
+	.sec2-4
 	{
-		width: 40%;
-		height: 406px;
+		border: 1px black solid;
 	}
 	.notre1
 	{
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
+		width: 98%;
 		height: 174px;
-		margin-bottom: 36px;
+		margin-bottom: 38px;
 		box-shadow: 2px 2px 16px silver;
 	}
 	.notre1s
@@ -700,7 +710,7 @@ main
 	{
 		border: 3px white solid;
 		border-radius: 20px;
-		width: 266px;
+		width: 98%;
 		height: 190px;
 		box-shadow: 2px 2px 16px silver;
 	}
@@ -714,7 +724,7 @@ main
 	.vieuxs, .parcs 
 	{
 		width: 100%;
-		height: 352px;
+		height: 356px;
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px;
 	}
@@ -727,7 +737,7 @@ main
 		font-size: 0.88em;
 	}
 
-			 /*Footer*/
+/*Footer*/
 
 	.footer
 	{
@@ -794,7 +804,7 @@ a
 {
 	#sec1_heberg
 	{
-		width: 69%;
+		width: 66%;
 	}
 	#bloc_lesplus
 	{
@@ -803,15 +813,17 @@ a
 		margin-right: 0px;
 	}      
 }
-@media all and (max-width: 1400px)
+@media all and (max-width: 1406px)
 {
 	#bloc_images1, #bloc_images2
 	{
 		flex-wrap: wrap;
+		margin-left: 5%;
+		justify-content: center;
 	}
 	#sec1_heberg
 	{
-		height: 1000px;
+		height: 1020px;
 		width: 60%;
 	}
 	#bloc_lesplus
@@ -822,16 +834,6 @@ a
 	{
 		margin-bottom: 20px;
 	}
-	.bloc_sec2
-	{
-		flex-wrap: wrap;
-		height: 870px;
-	}
-	.bloc_img31
-	{
-		margin-bottom: 20px;
-		margin-left: 35px;
-	}    
 }
 @media all and (max-width: 1373px)
 {
@@ -841,7 +843,7 @@ a
 	}
 	.titledesc1
 	{
-		width: 180px;
+		width: 160px;
 		border: 1px black solid;
 	}    
 }
@@ -852,13 +854,20 @@ a
 		margin-left: auto;
 	}
 }
-@media all and (max-width: 1270px)
+@media all and (max-width: 1201px)
 {
-	#bloc_images1, #bloc_images2
+	#sec1_heberg
 	{
-		width: 96%;
-		margin-left: 5%;
+		height: 1450px;
 	}
+	.Hoteldus, .Aubergeles
+	{
+		margin-bottom: 20px;
+	}
+	.conteneur_sec1
+	{
+		justify-content: center;
+	}	      
 }
 @media all and (max-width: 1200px)
 {
@@ -871,25 +880,35 @@ a
 		width: 600px;
 	}
 }
-@media all and (max-width: 1195px)
+@media all and (max-width: 980px)
 {
-	.bloc_sec2
+	#sec1_heberg
 	{
-		height: 1300px;
-		justify-content: center;
+		width: 350
 	}
-	.bloc_img32
+}
+@media all and (max-width: 933px)
+{
+	.bloc_filtres
 	{
-		margin-left: 26px;
+		flex-wrap: wrap;
+		width: auto;
+		height: 100px;
 	}
-	.bloc_sec2-1
+}
+@media all and (max-width: 800px)
+{
+	.conteneur_sec2
 	{
-		flex-direction: column;
+		height: 700px;
 	}
-	.bloc_sec2-2
+	.sec21, .sec22
 	{
-		flex-direction: column;
-		margin-left: 8px;
+		flex-wrap: wrap;
+	}
+	.sec2-1, .sec2-2, .sec2-3, .sec2-4
+	{
+		height: 200px;
 	}
 	.vieuxs, .parcs, .fort1s, .iles, .notre1s, .parcls
 	{
@@ -922,7 +941,6 @@ a
 	}
 	.vieux
 	{
-		margin-bottom: 40px;
 		width: 320px;
 		height: 180px;
 	}
@@ -938,9 +956,8 @@ a
 	}
 	.parc
 	{
-		margin-bottom: 40px;
 		width: 320px;
-		height: 170px;
+		height: 180px;
 	}
 	.notre1
 	{
@@ -952,53 +969,15 @@ a
 		width: 320px;
 		height: 170px;
 	}
-}
-@media all and (max-width: 1153px)
-{
-	#sec1_heberg
+	.sec2_texte
 	{
-		height: 1450px;
-	}
-	.Hoteldus, .Aubergeles
-	{
-		margin-bottom: 20px;
-	}
-	.conteneur_sec1
-	{
-		justify-content: center;
-	}	      
-}
-@media all and (max-width: 980px)
-{
-	#sec1_heberg
-	{
-		width: 350
+		margin: auto;
+		width: 300px;
+		border: 1px black solid;
+		text-align: center;
 	}
 }
-@media all and (max-width: 933px)
-{
-	.bloc_filtres
-	{
-		flex-wrap: wrap;
-		width: auto;
-		height: 100px;
-	}
-}
-@media all and (max-width: 748px)
-{
-	.titledesc1
-	{
-		width:85%;
-	}
-}
-@media all and (max-width: 740px)
-{
-	#sec1_heberg
-	{
-		height: 1480px;
-	}
-}
-@media all and (max-width: 700px)
+@media all and (max-width: 780px)
 {
 	#bloc_page
 	{
@@ -1029,7 +1008,7 @@ a
 	}
 	#bloc_lesplus
 	{
-		width: 750px;
+		width: 100%;
 		order: 1;
 		margin: auto;
 		border-radius: 0px;
@@ -1066,10 +1045,53 @@ a
 	{
 		margin-left: 20px;
 	}
+	.conteneur_head2
+	{
+		width: 84%;
+		margin: auto;
+	}
 }
-@media all and (max-width: 674px)
+@media all and (max-width: 755px)
 {
-	.
+	.titledesc1
+	{
+		width:85%;
+	}
+}
+@media all and (max-width: 754px)
+{
+	#sec1_heberg
+	{
+		height: 1000px;
+	}
+}
+@media all and (max-width: 700px)
+{
+	.conteneur_sec2
+	{
+		height: 1150px;
+	}
+	.bloc_sec2
+	{
+		flex-direction: column;
+	}
+	.sec21, .sec22
+	{
+		margin: auto;
+		width: 330px;
+	}
+	.sec2-1, .sec2-2, .sec2-3, .sec2-4
+	{
+		width: 100%;
+	}
+	.sec2-1, .sec2-3
+	{
+		margin-bottom: 10px;
+	}
+	.sec2_texte
+	{
+		margin-bottom: 10px;
+	}
 }
 @media all and (max-width: 593px)
 {
@@ -1082,7 +1104,7 @@ a
 	{
 		margin: auto;
 		margin-bottom: 20px;
-		width: 308px;
+		width: 98%;
 	}
 	.Hotelchezs
 	{
@@ -1090,14 +1112,18 @@ a
 	}
 	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
 	{
-		width: 304px;
+		width: 298px;
 	}
-
 	#bloc_images1, #bloc_images2
 	{
 		flex-direction: column;
 		margin: auto;
-		
+		width: 308px;
+	}
+	.sec2_texte
+	{
+		width: 330px;
+		text-align: left;
 	}
 }
 @media all and (max-width: 540px)
@@ -1105,22 +1131,26 @@ a
 	.bloc_logonav
 	{
 		height: 150px;
+		border: 1px black solid;
 	}
 	.logo_logonav
 	{
 		height: 30px;
+		border: 1px black solid;
 	}
 	.bloc_nav
 	{
 		order: 2;
 		width: auto;
 		margin: auto;
+		border: 1px black solid;
 	}
 	.nav_sins
 	{
 		order: 1;
 		margin-left: auto;
 		height: 30px;
+		border: 1px black solid;
 	}
 	.nav_sins:hover
 	{
@@ -1129,7 +1159,7 @@ a
 	}
 	.nav_heb, .nav_act
 	{
-		width: 160px;
+		width: 49vw;
 		height: 30px;
 		border-bottom: 2px grey solid;
 		border: 1px black solid;
@@ -1140,7 +1170,7 @@ a
 		border-bottom: 2px #0065FC solid;
 	}
 }
-@media all and (max-width: 452px)
+@media all and (max-width: 515px)
 {
 	.bloc_filtres
 	{
@@ -1151,31 +1181,8 @@ a
 		height: 50px;
 	}
 }
-@media all and (max-width: 400px)
+@media all and (max-width: 420px)
 {
-	.Hotellesols, .Aucoeurs, .Hoteltouts
-	{
-		width: auto;
-	}
-	.textles
-	{
-		font-size: 1.1em;
-	}
-}
-@media all and (max-width: 382px)
-{
-	.Hotellesols, .Aucoeurs, .Hoteltouts
-	{
-		width: 290px;
-	}		
-	.bloc_images3
-	{
-		width: 290px;
-	}
-	.desc2
-	{
-		height: 20px;
-	}
 	.bloc_search
 	{
 		width: 300px;
@@ -1204,53 +1211,57 @@ a
 	{
 		margin-bottom: 10px;
 	}
-	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles, .Hotelchezs
-	{
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-		border-top: 30px;
-	}
-	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
-	{
-		width: 99%
-	}
-	.vieuxs, .parcs, .fort1s, .iles, .notre1s, .parcls
-	{
-		width: 300px;
-	}
-	.vieux, .parc, .fort1, .ile, .notre1, .parcl
-	{
-		width: 301px;
-	}
-}
-@media all and (max-width: 365px)
-{
-	.bloc_filtres
-	{
-		height: 200px;
-	}
-}
-@media all and (max-width: 352px)
-{
 	.bloc_filtres
 	{
 		height: 240px;
 	}
 }
-@media all and (max-width: 270px)
+@media all and (max-width: 400px)
 {
 	.Hotellesols, .Aucoeurs, .Hoteltouts
 	{
-		width: 220px;
-	}
-	#bloc_lesplus
-	{
-		width: 220px;
+		width: 98%;
 	}
 	.bloc_images3
 	{
-		width: 220px;
+		width: 330px;
+		margin: auto;
+	}
+	.textheb
+	{
+		width: 330px;
+		margin: auto;
+	}
+	#bloc_images1, #bloc_images2
+	{
+		margin: auto;
+		width: 330px;
+		border: 1px black solid;
+	}
+	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
+	{
+		width: 99%;
+	}
+	.Aubergelas, .Hoteldus, .Hotelless, .Hoteldes, .Aubergeles, .Hotelchezs
+	{
+		width: 98%;
+	}
+}
+@media all and (max-width: 351px)
+{
+	.titledesc1
+	{
+		width:90%;
+	}
+}
+@media all and (max-width: 340px)
+{
+	.nav_heb, .nav_act
+	{
+		width: 166px;
+		height: 30px;
+		border-bottom: 2px grey solid;
+		border: 1px black solid;
 	}
 }
 
