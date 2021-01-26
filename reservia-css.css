@@ -8,14 +8,12 @@ main
 	max-width: 1600px;
 	min-width: 340px;
 	margin: 0px 5% 0px 5%;
-	border: 1px black solid;
 }
 .conteneur_sec1
 {
 	display: flex;
 	width: auto;
 	justify-content: space-between;
-	border: 1px black solid;
 }
 .sec2_texte
 {
@@ -23,19 +21,16 @@ main
 }
 .conteneur_sec2
 {
-	border: 1px black solid;
 	width: 100%;
 }
 .conteneur_head
 {
 	width: 100%;
-	border: 1px black solid;
 }
 .conteneur_head2
 {
 	width: 100%;
 	margin-bottom: 20px;
-	border: 1px black solid;
 }
 /*lehead*/
 
@@ -45,13 +40,11 @@ main
 		display: flex;
 		margin: auto;
 		flex-wrap: wrap;
-		border: 1px black solid;
 	}
 	.logo_logonav
 	{
 		height: 80px;
 		margin-top: 10px;
-		border: 1px black solid;
 		
 	}
 	.bloc_nav
@@ -59,8 +52,6 @@ main
 		display: flex;
 		margin-left: auto;
 		height: 60px;
-		border: 1px black solid;
-		
 	}
 	.nav_heb
 	{
@@ -71,8 +62,6 @@ main
 		font-size: 0.85em;
 		padding-top: 30px;
 		border: 2px white solid;
-		border: 1px black solid;
-		
 	}
 	.nav_act
 	{
@@ -83,7 +72,6 @@ main
 		font-size: 0.85em;
 		padding-top: 30px;
 		border: 2px white solid;
-		border: 1px black solid;
 	}
 	.nav_sins
 	{
@@ -94,8 +82,6 @@ main
 		font-size: 0.85em;
 		padding-top: 30px;
 		border: 2px white solid;
-		border: 1px black solid;
-		
 	}
 	.nav_heb:hover
 	{
@@ -203,7 +189,7 @@ main
 		height: 44px;
 		display: flex;
 		margin-top: 26px;
-		margin-bottom: 12px;
+		margin-bottom: 25px;
 	}
 	.fil
 	{
@@ -312,6 +298,7 @@ main
 	.case
 	{
 		width: 24px;
+		margin-right: 5px;
 	}
 	.ii
 	{
@@ -384,14 +371,12 @@ main
 {
 	width: 850px;
 	height: 600px;
-	border: 1px black solid;
 }
 #bloc_lesplus
 {
 	width: 450px;
 	height: 600px;
 	margin-right: 150px; 
-	border: 1px black solid;
 }
 
 /*Section 1 - Hebergements*/
@@ -403,7 +388,6 @@ main
 		font-family: Raleway;
 		margin-left: 3%;
 		margin-bottom: 30px;
-		border: 1px black solid;
 	}
 	.textheb1
 	{
@@ -421,7 +405,6 @@ main
 		display:flex;
 		margin: auto;
 		width: 92%;
-		border: 1px black solid;
 	}
 	#bloc_images1
 	{
@@ -505,7 +488,6 @@ main
 		height: 80px;
 		justify-content: flex-end;
 		justify-content: space-between;
-		border: 1px black solid;
 		margin: auto;
 	}
 	.textles
@@ -607,13 +589,11 @@ main
 		height: 464px;
 		display: flex;
 		width: 100%;
-		border: 1px black solid;
 	}
 	.sec21, .sec22
 	{
 		height: 416px;
 		display: flex;
-		border: 1px black solid;
 		width: 48%;
 	}
 	.sec21
@@ -627,7 +607,6 @@ main
 	}
 	.sec2-1
 	{
-		border: 1px black solid;
 		margin-right: 10%;
 	}
 	.vieux
@@ -642,10 +621,6 @@ main
 	.vieuxs
 	{
 		background-image: url("images/Activites/Vieux_Port.jpg");
-	}
-	.sec2-2
-	{
-		border: 1px black solid;
 	}
 	.fort1
 	{
@@ -682,7 +657,6 @@ main
 	}
 	.sec2-3
 	{
-		border: 1px black solid;
 		margin-right: 10%;
 	}
 	.parc
@@ -696,10 +670,6 @@ main
 	.parcs
 	{
 		background-image: url("images/Activites/Parc_National_des_Calanques.jpg");
-	}
-	.sec2-4
-	{
-		border: 1px black solid;
 	}
 	.notre1
 	{
@@ -801,7 +771,6 @@ a
 	#bloc_page
 	{
 		margin: auto;
-		border: 1px black solid;
 	}
 	.footer
 	{
@@ -856,7 +825,6 @@ a
 	.titledesc1
 	{
 		width: 160px;
-		border: 1px black solid;
 	}    
 }
 @media all and (max-width: 1352px)
@@ -985,7 +953,6 @@ a
 	{
 		margin: auto;
 		width: 300px;
-		border: 1px black solid;
 		text-align: center;
 	}
 }
@@ -1030,7 +997,6 @@ a
 		margin: auto;
 		justify-content: center;
 		width: 85%;
-		border: 1px black solid;
 	}
 	.textlog
 	{
@@ -1062,6 +1028,10 @@ a
 		width: 84%;
 		margin: auto;
 	}
+	.sec21
+	{
+		margin-left: 3%;
+	}
 }
 @media all and (max-width: 755px)
 {
@@ -1077,11 +1047,11 @@ a
 		height: 1000px;
 	}
 }
-@media all and (max-width: 700px)
+@media all and (max-width: 750px)
 {
 	.conteneur_sec2
 	{
-		height: 1150px;
+		height: 1350px;
 	}
 	.bloc_sec2
 	{
@@ -1091,6 +1061,10 @@ a
 	{
 		margin: auto;
 		width: 330px;
+	}
+	.sec21
+	{
+		margin-bottom: 220px;
 	}
 	.sec2-1, .sec2-2, .sec2-3, .sec2-4
 	{
@@ -1103,6 +1077,14 @@ a
 	.sec2_texte
 	{
 		margin-bottom: 10px;
+	}
+	.sec2-1
+	{
+		margin-bottom: 20px;
+	}
+	.sec2-3
+	{
+		margin-bottom: 20px;
 	}
 }
 @media all and (max-width: 593px)
@@ -1137,32 +1119,52 @@ a
 		width: 330px;
 		text-align: left;
 	}
+	.Aubergela
+	{
+		background-image: url("images/Hebergements/Auberge_La_Cannebiere.jpg");
+	}
+	.Hotelde
+	{
+		background-image: url("images/Hebergements/Hotel_de_la_mer.jpg");
+	}
+	.Hoteldu
+	{
+		background-image: url("images/Hebergements/Hotel_du_port.jpg");
+	}
+	.Aubergele
+	{
+		background-image: url("images/Hebergements/Auberge_Le_Panier.jpg");
+	}
+	.Hotelles
+	{
+		background-image: url("images/Hebergements/Hotel_Les_mouettes.jpg");
+	}
+	.Hotelchez
+	{
+		background-image: url("images/Hebergements/Hotel_chez_Amina.jpg");
+	}
 }
 @media all and (max-width: 540px)
 {
 	.bloc_logonav
 	{
 		height: 150px;
-		border: 1px black solid;
 	}
 	.logo_logonav
 	{
 		height: 30px;
-		border: 1px black solid;
 	}
 	.bloc_nav
 	{
 		order: 2;
 		width: auto;
 		margin: auto;
-		border: 1px black solid;
 	}
 	.nav_sins
 	{
 		order: 1;
 		margin-left: auto;
 		height: 30px;
-		border: 1px black solid;
 	}
 	.nav_sins:hover
 	{
@@ -1174,7 +1176,6 @@ a
 		width: 49vw;
 		height: 30px;
 		border-bottom: 2px grey solid;
-		border: 1px black solid;
 	}
 	.nav_heb:hover, .nav_act:hover
 	{
@@ -1248,7 +1249,6 @@ a
 	{
 		margin: auto;
 		width: 330px;
-		border: 1px black solid;
 	}
 	.Aubergela, .Hoteldu, .Hotelles, .Hotelde, .Aubergele, .Hotelchez
 	{
@@ -1273,7 +1273,6 @@ a
 		width: 166px;
 		height: 30px;
 		border-bottom: 2px grey solid;
-		border: 1px black solid;
 	}
 }
 
