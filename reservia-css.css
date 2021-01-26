@@ -34,6 +34,7 @@ main
 .conteneur_head2
 {
 	width: 100%;
+	margin-bottom: 20px;
 	border: 1px black solid;
 }
 /*lehead*/
@@ -91,6 +92,7 @@ main
 		text-align: center;
 		font-family: Raleway;
 		font-size: 0.85em;
+		padding-top: 30px;
 		border: 2px white solid;
 		border: 1px black solid;
 		
@@ -113,6 +115,10 @@ main
 	.nav_sins:hover
 	{
 		border-top: 2px #0065FC solid;
+	}
+	.bloc_en_tete
+	{
+		margin-bottom: 14px;
 	}
 	.trouv
 	{
@@ -197,6 +203,7 @@ main
 		height: 44px;
 		display: flex;
 		margin-top: 26px;
+		margin-bottom: 12px;
 	}
 	.fil
 	{
@@ -406,7 +413,7 @@ main
 	}
 	.textheb2
 	{
-		margin-top: 18px;
+		margin-top: 30px;
 		font-size: 1.3em;
 	}
 	#bloc_images1, #bloc_images2
@@ -420,6 +427,10 @@ main
 	{
 		margin-top: 7px;
 		margin-bottom: 8px;
+	}
+	#bloc_images2
+	{
+		margin-top: 20px;
 	}
 	.Aubergelas, .Hoteldus, .Hotelless
 	{
@@ -446,7 +457,7 @@ main
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
 		width: 232px;
-		height: 110px;
+		height: 114px;
 		margin-top: 3px;
 		margin-left: 2px;
 	}
@@ -587,9 +598,9 @@ main
 		text-align: left;
 		font-family: Raleway;
 		font-weight: bold;
-		font-size: 1.1em;
-		margin-top: 20px;
-		margin-bottom: 10px;
+		font-size: 1.2em;
+		margin-top: 50px;
+		margin-bottom: 0px;
 	}
 	.bloc_sec2
 	{
@@ -747,6 +758,7 @@ main
 		width: 95%;
 		height: 192px;
 		margin: auto;
+		min-width: 340px;
 	}
 	.propos, .Nos, .Assist
 	{
