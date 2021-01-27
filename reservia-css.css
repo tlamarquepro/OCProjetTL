@@ -781,6 +781,10 @@ a
 	{
 		width: 340px;
 	}
+	.bloc_sec2
+	{
+		max-width: 1450px;
+	}
 }
 @media all and (max-width: 1649px)
 {
