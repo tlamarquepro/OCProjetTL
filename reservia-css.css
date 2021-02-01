@@ -772,10 +772,11 @@ a
 	#bloc_page
 	{
 		margin: auto;
+		width: 1450px;
 	}
 	.footer
 	{
-		width: 1650px;
+		width: 1500px;
 	}
 	.bloc_images3
 	{
@@ -784,6 +785,16 @@ a
 	.bloc_sec2
 	{
 		max-width: 1450px;
+	}
+	#sec1_heberg
+	{
+		width: 66%;
+	}
+	#bloc_lesplus
+	{
+		width: 30%;
+		margin-left: 30px;
+		margin-right: 0px;
 	}
 }
 @media all and (max-width: 1649px)
