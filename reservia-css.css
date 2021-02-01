@@ -876,13 +876,6 @@ a
 		width: 600px;
 	}
 }
-@media all and (max-width: 980px)
-{
-	#sec1_heberg
-	{
-		width: 350
-	}
-}
 @media all and (max-width: 933px)
 {
 	.bloc_filtres
