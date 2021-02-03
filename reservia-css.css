@@ -1142,6 +1142,17 @@ a
 		background-image: url("images/Hebergements/Hotel_chez_Amina.jpg");
 	}
 }
+@media all and (max-width: 515px)
+{
+	.bloc_filtres
+	{
+		height: 180px;
+	}
+	.fil
+	{
+		height: 50px;
+	}
+}
 @media all and (max-width: 445px)
 {
 	.bloc_nav
@@ -1169,17 +1180,6 @@ a
 	{
 		border-top: none;
 		border-bottom: 2px #0065FC solid;
-	}
-}
-@media all and (max-width: 515px)
-{
-	.bloc_filtres
-	{
-		height: 180px;
-	}
-	.fil
-	{
-		height: 50px;
 	}
 }
 @media all and (max-width: 420px)
