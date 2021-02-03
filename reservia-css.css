@@ -357,11 +357,9 @@ main
 		height: 420px;
 		display: flex;
 		margin: auto;
-		border: 1px black solid;
 	}
 	.bloc_image1, .bloc_image2, .bloc_image3
 	{
-		border: 1px black solid;
 		width: 33%;
 	}
 	.bloc_image1, .bloc_image2
@@ -378,8 +376,7 @@ main
 		box-shadow: 1px 1px 12px silver;
 		margin: auto;
 		margin-bottom: 20px;
-		border: 1px black solid;
-		padding-top: 5px;
+		padding-top: 3px;
 	}
 	.Hoteldes, .Aubergeles, .Hotelchezs
 	{
@@ -390,17 +387,16 @@ main
 		height:	190px;
 		box-shadow: 1px 1px 12px silver;
 		margin: auto;
-		border: 1px black solid;
-		padding-top: 5px;
+		padding-top: 3px;
 	}
 	.Aubergela, .Hotelde, .Hoteldu, .Aubergele, .Hotelles, .Hotelchez
 	{
 		border-top-left-radius: 18px;
 		border-top-right-radius: 18px; 
-		width: 96%;
+		width: 98%;
 		height: 114px;
 		margin: auto;
-		margin-left: 4px;
+		margin-left: 2px;
 		object-fit: cover;
 	}
 	.desc1
