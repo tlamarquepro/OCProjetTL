@@ -1,3 +1,7 @@
+* 
+{
+    outline: 2px red solid;
+}
 main
 {
 	margin: auto;
@@ -23,65 +27,50 @@ main
 {
 	width: 100%;
 }
-.conteneur_head
-{
-	width: 100%;
-}
 .conteneur_head2
 {
 	width: 100%;
 	margin-bottom: 20px;
 }
-/*lehead*/
+/*Le Head*/
 
-	.bloc_logonav
+	.conteneur_head
 	{
-		height: 80px;
 		display: flex;
-		margin: auto;
-		flex-wrap: wrap;
+	    min-width: 280px;
+	    flex-wrap: wrap;
+	    width: 100%;
+	    margin-bottom: 20px;
 	}
 	.logo_logonav
 	{
-		height: 80px;
-		margin-top: 10px;
-		
+		height: 35px;
+    	width: 60px;
+    	flex-grow: 1;
 	}
 	.bloc_nav
 	{
 		display: flex;
-		margin-left: auto;
-		height: 60px;
+   		width: 300px;
+    	padding: 0 20px;
+    	height: 32px;
 	}
 	.nav_heb
 	{
-		height: 60px;
-		width: 135px;
-		text-align: center;
 		font-family: Raleway;
-		font-size: 0.85em;
-		padding-top: 30px;
 		border: 2px white solid;
 	}
 	.nav_act
 	{
-		height: 60px;
-		width: 135px;
-		text-align: center;
 		font-family: Raleway;
-		font-size: 0.85em;
-		padding-top: 30px;
 		border: 2px white solid;
 	}
 	.nav_sins
 	{
-		height: 60px;
-		width: 130px;
-		text-align: center;
 		font-family: Raleway;
-		font-size: 0.85em;
-		padding-top: 30px;
 		border: 2px white solid;
+		padding: 0 20px;
+		height: 28px;
 	}
 	.nav_heb:hover
 	{
@@ -324,7 +313,7 @@ main
 	}
 
 
-/*Les hebergements_images de fonds*/
+/*Les hebergements - images de fonds*/
 	.Aubergela
 	{
 		background-image: url("images/Hebergements/Auberge_La_Cannebiere_M.jpg");
@@ -1153,37 +1142,25 @@ a
 		background-image: url("images/Hebergements/Hotel_chez_Amina.jpg");
 	}
 }
-@media all and (max-width: 540px)
+@media all and (max-width: 577px)
 {
-	.bloc_logonav
-	{
-		height: 150px;
-	}
-	.logo_logonav
-	{
-		height: 30px;
-	}
 	.bloc_nav
 	{
-		order: 2;
-		width: auto;
-		margin: auto;
+		order: 3;
+		flex-grow: 1;
+		margin-top: 20px;
 	}
 	.nav_sins
 	{
-		order: 1;
-		margin-left: auto;
-		height: 30px;
+		order: 2;
 	}
 	.nav_sins:hover
 	{
 		border-top: none;
-
 	}
 	.nav_heb, .nav_act
 	{
 		width: 49vw;
-		height: 30px;
 		border-bottom: 2px grey solid;
 	}
 	.nav_heb:hover, .nav_act:hover
